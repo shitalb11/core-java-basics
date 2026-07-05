@@ -6,10 +6,10 @@ public class _3_fibonacciSeries {
         System.out.println("Fibonacci Series: " + num1 + " " + num2);
 
         for (int i=2;i<n;i++){
-            int num3 = num1+num2;
-            System.out.println("" + num3);
-            num1=num2;
-            num2=num3;
+            int num3 = num1 + num2;//next number
+            System.out.println("" + num3);//print next number
+            num1 = num2;//update num1
+            num2 = num3;//update num2
         }
     }
 }
