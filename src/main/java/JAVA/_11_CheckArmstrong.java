@@ -9,5 +9,6 @@ public class _11_CheckArmstrong {
             temp /= 10;
         }
         System.out.println(sum==num);
+
     }
 }
